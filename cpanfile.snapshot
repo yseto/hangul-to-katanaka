@@ -1,0 +1,47 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Convert-Moji-0.10
+    pathname: B/BK/BKB/Convert-Moji-0.10.tar.gz
+    provides:
+      Convert::Moji 0.10
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
+  File-Slurp-9999.21
+    pathname: C/CA/CAPOEIRAB/File-Slurp-9999.21.tar.gz
+    provides:
+      File::Slurp 9999.21
+    requirements:
+      B 0
+      Carp 0
+      Errno 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      POSIX 0
+      strict 0
+      warnings 0
+  JSON-Parse-0.55
+    pathname: B/BK/BKB/JSON-Parse-0.55.tar.gz
+    provides:
+      JSON::Parse 0.55
+      JSON::Tokenize 0.55
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008009
+  Lingua-JA-Moji-0.53
+    pathname: B/BK/BKB/Lingua-JA-Moji-0.53.tar.gz
+    provides:
+      Lingua::JA::Moji 0.53
+    requirements:
+      Convert::Moji 0.05
+      ExtUtils::MakeMaker 0
+      JSON::Parse 0.49
+      perl 5.008009
+  Lingua-KO-Romanize-Hangul-0.20
+    pathname: K/KA/KAWASAKI/Lingua-KO-Romanize-Hangul-0.20.tar.gz
+    provides:
+      Lingua::KO::Romanize::Hangul 0.20
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
